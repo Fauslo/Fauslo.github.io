@@ -9,6 +9,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack , Link} from "@chakra-ui/react";
 
+<VStack>
+  {socials.map((social, index) => (
+    <a key={index} href={social.url} target="_blank">
+      <FontAwesomeIcon icon={social.icon} />
+    </a>
+  ))}
+</VStack>;
+
+
 const socials = [
   {
     icon: faEnvelope,
