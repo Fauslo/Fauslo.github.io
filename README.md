@@ -1,1 +1,1 @@
-# fauslo.github.io
+# Fauslo.github.io
